@@ -1,7 +1,7 @@
 Midas Core - JPMorgan Software Engineering Virtual Internship
 Midas Core is a robust, event-driven backend system designed to process high-frequency financial transactions. This project was developed as part of the JPMorgan Chase Software Engineering Virtual Experience.
 
-🏗️ Architecture Overview
+ Architecture Overview
 The system follows a microservices-oriented architecture, utilizing asynchronous message processing and synchronous RESTful communication.
 
 Key Components:
@@ -15,7 +15,7 @@ H2 Database: Provides persistence for user accounts and transaction history.
 
 REST Controller: Exposes a public API for real-time balance inquiries.
 
-🛠️ Features & Implementation Details
+Features & Implementation Details
 Task 1 & 2: Event-Driven Processing
 Implemented a Kafka Listener using @KafkaListener to consume JSON-serialized transaction objects.
 
@@ -36,7 +36,7 @@ Configured the application to run on a non-standard port (33400) to avoid servic
 
 Exposed a GET /balance endpoint accepting a userId parameter and returning a JSON-serialized balance object.
 
-🚀 Technical Stack
+Technical Stack
 Java 17
 
 Spring Boot 3 (Web, Data JPA)
